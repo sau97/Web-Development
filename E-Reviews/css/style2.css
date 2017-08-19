@@ -1,0 +1,170 @@
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #45B39D;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #34495E;
+    color: white;
+}
+
+iframe {
+	width: 853px;
+	height: 480px;
+	border: 1px #999 solid;
+}
+
+textarea {
+	width: 900px;
+	height: 150px;
+	background-color: #fff;
+	resize: none;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	font-family: arial;
+	font-weight: 400;
+	cursor: pointer;
+	margin-bottom: 60px;
+}
+
+
+.comment-box {
+	width: 815px;
+	padding: 20px;
+	margin-bottom: 4px;
+	background-color: #fff;
+	border-radius: 4px;
+	position: relative;
+}
+
+.comment-box p {
+	font-family: arial;
+	font-size: 14px;
+	line-height: 16px;
+	color: #282828;
+	font-weight: 100;
+}
+
+.edit-form {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.edit-form button {
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.edit-form button:hover {
+	opacity: 1;
+}
+
+.delete-form button {
+	width: 40px;
+	height: 20px;
+	color: #282828;
+	background-color: #fff;
+	opacity: 0.7;
+}
+
+.delete-form button:hover {
+	opacity: 1;
+}
+.commentmessage {
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+{
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 48.3%;
+    padding: 8px;
+	
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .columns {
+        width: 100%;
+		display: block;
+    }
+}
+
+
+img {
+    display: block;
+    margin: auto;
+}
+

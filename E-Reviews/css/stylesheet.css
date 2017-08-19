@@ -1,0 +1,165 @@
+.body {
+	
+	color: #000305;
+	font-size: 120%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+}	
+	
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+}
+a:hover, a:active {
+	background-color:#616A6B;
+	color: #FFF;
+	}
+
+.body {
+		margin: 0 auto;
+		width:100%;
+		clear: both;
+}
+
+.mainHeader img {
+	width:100%;
+	height:130px;
+	margin-top:0;
+	
+}
+
+.mainHeader nav {
+	background-color:#45B39D;
+	height: 70px;
+}
+
+.mainHeader nav ul {
+	font-size:25px;
+	list-style: none;
+	margin: 0 auto;
+	
+}
+
+.mainHeader nav ul li {
+	float: left;
+	
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 30px;
+	height: 10px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #34495E;
+	text-decoration:none;
+	text-shadow: none;
+	height:30px;
+	}
+
+
+/*input[type=text] {
+    margin-left:100px;
+	width: 30%;
+	height: 45px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}*/
+	
+.mainContent {
+		line-height: 25px;
+		overflow: hidden;
+		height:1200px;
+		margin-bottom:50px;
+		}
+
+.content {
+	width:96%;
+	margin-left:2%;
+	margin-right:2%;
+	float: left;
+}
+
+.topcontent {
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	background-color: #E8F8F5;
+	padding: 2% 3%;
+	margin-top: 20%;
+	height:500px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+.other {
+	
+	color:#A2D9CE;
+	font-size:12px;
+}	
+.other1 {
+	color:#A2D9CE;
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	
+.body {
+		width:100%;
+		font-size: 90%;
+}
+
+.mainHeader img {
+	width:100%;	
+}
+
+
+.mainHeader nav {
+	background-color:#4B4846;
+	height: 150px;
+}
+
+.mainHeader nav ul {
+	padding-left: 0;
+}
+
+.mainHeader nav ul li {
+	width: 100%;
+	text-align: center;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	display: block;
+	padding: 10px 30px;
+	height: 20px;
+}
+
+.content {
+	width:98%;
+	float: left;
+	margin-top: 100%;
+	
+	}
+
+.topcontent {
+	
+	background-color: #FFF;
+	padding: 3% 3%;
+	margin-top: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
